@@ -13,18 +13,21 @@ body {
 }
 
 body {
-  align-items: center;
   background-color: #9c2e35;
-  display: flex;
+  display: grid;
+  align-items: center;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .container {
-  margin: 0 auto;
-  text-align: center;
+  justify-self: center;
+  align-self: center;
 }
 
 .marsFoto {
-  padding-right: 15em;
+  justify-self: center;
+  align-self: center;
 }
 
 h1 {
@@ -37,17 +40,7 @@ h1 {
   color: white;
 }
 p {
-  justify-content: center;
-  align-items: center;
   font-family: 'Rubik', sans-serif;
-  text-align: center;
   font-size: 2rem;
-  margin-top: 0px;
   color: white;
-}
-
-@media all and (max-width: 768px) {
-  h1 {
-    font-size: 1.5rem;
-  }
 }
