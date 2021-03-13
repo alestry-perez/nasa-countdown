@@ -5,13 +5,11 @@
   margin: 0;
   padding: 0;
 }
-
 html,
 body {
   height: 100%;
   margin: 0;
 }
-
 body {
   background-color: #9c2e35;
   display: grid;
@@ -19,17 +17,14 @@ body {
   grid-auto-flow: row;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
-
 .container {
   justify-self: center;
   align-self: center;
 }
-
 .marsFoto {
   justify-self: center;
   align-self: center;
 }
-
 h1 {
   justify-content: center;
   align-items: center;
